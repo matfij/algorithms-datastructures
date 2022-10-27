@@ -8,10 +8,10 @@ var floodFill = function (image, sr, sc, color) {
       return;
     } else {
       image[x][y] = newColor;
-      dfs(image, x-1, y, oldColor, newColor);
-      dfs(image, x+1, y, oldColor, newColor);
-      dfs(image, x, y-1, oldColor, newColor);
-      dfs(image, x, y+1, oldColor, newColor);
+      dfs(image, x - 1, y, oldColor, newColor);
+      dfs(image, x + 1, y, oldColor, newColor);
+      dfs(image, x, y - 1, oldColor, newColor);
+      dfs(image, x, y + 1, oldColor, newColor);
     }
   };
 
@@ -20,4 +20,21 @@ var floodFill = function (image, sr, sc, color) {
   return image;
 };
 
-console.log([ [ 2, 2, 2 ], [ 2, 2, 0 ], [ 2, 0, 1 ] ], '\n', floodFill([[1,1,1],[1,1,0],[1,0,1]], 1, 1, 2));
+console.log(
+  [
+    [2, 2, 2],
+    [2, 2, 0],
+    [2, 0, 1],
+  ],
+  '\n',
+  floodFill(
+    [
+      [1, 1, 1],
+      [1, 1, 0],
+      [1, 0, 1],
+    ],
+    1,
+    1,
+    2
+  )
+);
