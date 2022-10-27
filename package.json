@@ -1,0 +1,22 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matfij/algorithms-datastructures.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matfij/algorithms-datastructures/issues"
+  },
+  "homepage": "https://github.com/matfij/algorithms-datastructures#readme",
+  "dependencies": {
+    "jest": "^29.2.2"
+  }
+}

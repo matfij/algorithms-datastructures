@@ -29,5 +29,4 @@ var checkInclusion = function (s1, s2) {
   return false;
 };
 
-console.log(true, checkInclusion('ab', 'abba'));
-console.log(false, checkInclusion('axb', 'azbxbfa'));
+module.exports = checkInclusion;

@@ -20,21 +20,4 @@ var floodFill = function (image, sr, sc, color) {
   return image;
 };
 
-console.log(
-  [
-    [2, 2, 2],
-    [2, 2, 0],
-    [2, 0, 1],
-  ],
-  '\n',
-  floodFill(
-    [
-      [1, 1, 1],
-      [1, 1, 0],
-      [1, 0, 1],
-    ],
-    1,
-    1,
-    2
-  )
-);
+module.exports = floodFill;

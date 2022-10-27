@@ -16,6 +16,4 @@ var lengthOfLongestSubstring = function (s) {
   return maxLength;
 };
 
-console.log(3, lengthOfLongestSubstring('abcabcbb'));
-console.log(4, lengthOfLongestSubstring('pwawkew'));
-console.log(1, lengthOfLongestSubstring('rrrrrrr'));
+module.exports = lengthOfLongestSubstring;
